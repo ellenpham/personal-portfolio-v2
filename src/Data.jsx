@@ -50,38 +50,38 @@ export const links = [
   },
 ];
 
-export const services = [
+export const projects = [
   {
     id: 1,
-    name: 'Web Development',
+    name: ' Full-Stack App ',
     title: 'Web Design & Logo',
     description:
       'Web designers craft the overall vision & plan for a website layout. Professional logo development: Business, Company, or Personal.',
   },
   {
     id: 2,
-    name: ' Apps Development ',
+    name: ' RESTful API',
     title: ' iOS & Android ',
     description:
       'Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing.',
   },
   {
     id: 3,
-    name: ' Game Development ',
+    name: ' Terminal Application ',
     title: ' Unity & Unreal Engine ',
     description:
       ' Creating games & describes the design, development and release of a game. Developing unique mobile android and ios games. ',
   },
   {
     id: 4,
-    name: ' Advertising ',
+    name: ' Responsive Website ',
     title: ' Google Ads ',
     description:
       ' Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program. ',
   },
   {
     id: 5,
-    name: ' Music Writing ',
+    name: ' Hackathon Project ',
     title: ' Sound Track ',
     description:
       'Music copying, writing, creating, transcription and composition services.',
@@ -138,7 +138,7 @@ export const skills = [
   },
 ];
 
-export const projects = [
+export const projects_tutorial = [
   {
     id: 1,
     img: Project1,
