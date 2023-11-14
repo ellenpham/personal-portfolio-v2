@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from "../../assets/profile-img.png";
+import heroImage from "../../assets/hero-image.jpg";
 import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
 
@@ -10,6 +10,8 @@ const Home = () => {
   return (
     <section className='home' id='home'>
         <div className='home__wrapper'>
+            <img src={heroImage} alt="" className='home__profile' />
+            <div className='gradient__image'></div>
             <div className='home__container container'>
                 <p className="home__subtitle text-cs">
                     Hello, <span>My Name Is</span>
@@ -23,10 +25,8 @@ const Home = () => {
                     <span className='text-cs'>I Am</span> <b>Junior Web Developer</b>
                 </p>
 
-                <div className="home__img-wrapper">
-                    <div className="home__banner">
-                        {/* <img src={profileImg} alt="" className='home__profile' /> */}
-                    </div>
+                <div className="">
+                    
 
                     <p className="home__data home__data-one">
                         {/* <span className="text-lg">
@@ -48,9 +48,9 @@ const Home = () => {
                         </span> */}
                     </p>
 
-                    <img src={shapeOne} alt="" className="shape shape__1" />
+                    {/* <img src={shapeOne} alt="" className="shape shape__1" />
                     <img src={shapeTwo} alt="" className="shape shape__2" />
-                    <img src={shapeTwo} alt="" className="shape shape__3" />
+                    <img src={shapeTwo} alt="" className="shape shape__3" /> */}
                 </div>
 
                 <p className='home__text'>
