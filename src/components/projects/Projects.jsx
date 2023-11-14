@@ -22,6 +22,9 @@ const Projects = () => {
         <p className="section__subtitle">
             My <span>Work</span>
         </p>
+        <p className="section_description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        </p>
 
         <Swiper 
             pagination={{

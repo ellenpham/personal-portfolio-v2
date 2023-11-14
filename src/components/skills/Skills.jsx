@@ -1,6 +1,7 @@
 import React from 'react';
 import {skills} from '../../Data';
 import './skills.css';
+import { Icon } from '@iconify/react';
 
 const Skills = () => {
   return (
@@ -9,24 +10,22 @@ const Skills = () => {
         <p className="section__subtitle">
             My <span>Skills</span>
         </p>
+        <p className="section_description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        </p>
 
         <div className="skills__container container grid">
-            {skills.map(({name, percentage, description}, index) => {
+            {skills.map(({name, icon}, index) => {
                 return (
                     <div className="skills__item">
                         <div className="skills__titles">
                             <h3 className="skills__name">{name}</h3>
-                            <span className="skills__number">
-                                {percentage}<span>%</span>
+                            <span className="skills__icon">
+                                <Icon icon={icon} className="icon__image" />
                             </span>
                         </div>
 
-                        <p className="skills__description">{description}</p>
-                        <div className="skills__bar">
-                            <span className="skills__percentage">
-                                <span></span>
-                            </span>
-                        </div>
+                        <div className="skills__bar"></div>
                     </div>
                 );
             })}

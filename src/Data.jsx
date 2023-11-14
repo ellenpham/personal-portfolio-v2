@@ -11,6 +11,7 @@ import Testimonial3 from './assets/testimonial3.jpg';
 import Testimonial4 from './assets/testimonial4.jpg';
 import Testimonial5 from './assets/testimonial5.jpg';
 
+
 export const links = [
   {
     name: 'Home',
@@ -91,51 +92,85 @@ export const projects = [
 export const skills = [
   {
     id: 1,
-    name: 'PHP',
-    percentage: 85,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: 'HTML5',
+    icon: "ri:html5-fill"
   },
 
   {
     id: 2,
-    name: 'JavaScript',
-    percentage: 75,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: 'CSS3',
+    icon: "ion:logo-css3"
   },
 
   {
     id: 3,
-    name: 'WordPress',
-    percentage: 90,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: 'Python',
+    icon: "fa-brands:python" 
   },
 
   {
     id: 4,
-    name: 'Python',
-    percentage: 75,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: 'Flask',
+    icon: "simple-icons:flask"
   },
 
   {
     id: 5,
-    name: 'React',
-    percentage: 70,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: 'PostgreSQL',
+    icon: "devicon-plain:postgresql"
   },
 
   {
     id: 6,
-    name: 'Adobe XD',
-    percentage: 80,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: 'JavaScript',
+    icon: "teenyicons:javascript-outline" 
   },
+
+  {
+    id: 7,
+    name: 'React',
+    icon: "teenyicons:react-outline"
+  },
+  {
+    id: 8,
+    name: 'Node',
+    icon: "fa-brands:node-js"
+  },
+  {
+    id: 9,
+    name: 'Express',
+    icon: "simple-icons:express"
+  },
+  {
+    id: 10,
+    name: 'MongoDB',
+    icon: "simple-icons:mongodb"
+  },
+  {
+    id: 11,
+    name: 'Jest',
+    icon: "cib:jest"
+  },
+  {
+    id: 12,
+    name: 'PyTest',
+    icon: "file-icons:pytest"
+  },
+  {
+    id: 13,
+    name: 'VSCode',
+    icon: "file-icons:vscode"
+  },
+  {
+    id: 14,
+    name: 'Trello',
+    icon: "fa-brands:trello"
+  },
+  {
+    id: 15,
+    name: 'Figma',
+    icon: "fa6-brands:figma"
+  }
 ];
 
 export const projects_tutorial = [

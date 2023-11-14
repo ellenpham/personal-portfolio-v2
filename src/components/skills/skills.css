@@ -2,41 +2,44 @@
     background-image: var(--third-gradient);
 }
 
+
 .skills__container {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 70px;
+    column-gap: 40px;
 }
+
 
 .skills__titles {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
+    padding-inline: 10px;
 }
 
 .skills__name {
     font-size: var(--largest-font-size);
 }
 
-.skills__number {
+.skills__icon {
     color: var(--title-color);
     font-weight: 700;
 }
 
-.skills__number span {
+.icon__image {
     color: var(--primary-color);
+    width: 50px;
+    height: 50px;
 }
 
-.skills__description {
-    margin-bottom: 30px;
-}
-
-.skills__bar,
-.skills__percentage {
+.skills__bar {
     height: 2px;
 }
 
 .skills__bar {
-    background: rgba(255, 255, 255, 0.2);
+    background-color: var(--primary-color);
+    /* background: rgba(255, 255, 255, 0.2); */
 }
+
 

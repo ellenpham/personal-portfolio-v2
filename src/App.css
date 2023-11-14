@@ -215,7 +215,7 @@ img {
   font-size: var(--smaller-font-size);
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .section__subtitle span {
@@ -224,6 +224,12 @@ img {
   font-size: var(--h3-font-size);
   text-transform: capitalize;
   margin-left: 10px;
+}
+
+.section_description {
+  font-size: var(--large-font-size);
+  margin-block: 20px 60px;
+  text-align: center;
 }
 
 .card {
