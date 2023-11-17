@@ -227,9 +227,9 @@ export const projects_tutorial = [
 export const cv = [
   {
     id: 1,
-    title: 'CoderHouse Courses',
-    subtitle: 'Backend Programming',
-    date: '2014 - 2016',
+    title: 'Coder Academy',
+    subtitle: 'Web Developement',
+    date: 'Feb-Dec 2023',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     category: 'education',
@@ -237,9 +237,9 @@ export const cv = [
 
   {
     id: 2,
-    title: 'Lviv National Academy of Arts',
-    subtitle: 'Faculty of Design',
-    date: '2012 - 2014',
+    title: 'La Trobe University',
+    subtitle: 'Master of International Business',
+    date: '2015 - 2016',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     category: 'education',
@@ -247,9 +247,9 @@ export const cv = [
 
   {
     id: 3,
-    title: 'IT Future',
-    subtitle: 'High School',
-    date: '2010 - 2012',
+    title: 'Vietnam Foreign Trade University',
+    subtitle: 'Economics & International Business',
+    date: '2011 - 2015',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     category: 'education',
@@ -257,8 +257,8 @@ export const cv = [
 
   {
     id: 4,
-    title: 'UI Head & Manager',
-    subtitle: 'Soft Tech Inc.',
+    title: 'Resourcing Specialist',
+    subtitle: 'Programmed Skilled Workforce',
     date: '2020 - PRESENT',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -267,9 +267,9 @@ export const cv = [
 
   {
     id: 5,
-    title: 'UI / UX Specialist',
-    subtitle: 'Kana Design Studio',
-    date: '2018 - 2020',
+    title: 'Administrative Assistant',
+    subtitle: 'Fuson Auto Bosch',
+    date: 'Sep 2017-',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     category: 'experience',
@@ -277,9 +277,9 @@ export const cv = [
 
   {
     id: 6,
-    title: 'Plugins Developer',
-    subtitle: 'Fiverr.com',
-    date: '2016 - 2018',
+    title: 'Data Management Intern',
+    subtitle: 'Robert Bosch in Singapore',
+    date: 'Feb-Aug 2017',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     category: 'experience',

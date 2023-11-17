@@ -1,6 +1,7 @@
 .home {
     background-image: var(--first-gradient);
     padding-bottom: 180px;
+    /* add styling here for gradient transition from hero to first section */
 }
 
 .home__wrapper {
@@ -115,6 +116,7 @@
     height: 100%;
     background-image: linear-gradient(to right, hsl(217, 18%, 14%),hsl(217, 18%, 14%) 32%, rgba(255,0,0,0), hsl(217, 18%, 14%));
 }
+
 
 /* .home__data {
     border: 2px solid var(--border-color);
