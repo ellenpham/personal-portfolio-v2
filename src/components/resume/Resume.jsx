@@ -8,7 +8,7 @@ const Resume = () => {
     <section className='resume section' id='resume'>
       <h2 className="section__title text-cs">Resume</h2>
         <p className="section__subtitle">
-            My <span>Story</span>
+            My <span>History</span>
         </p>
         <p className="section_description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
