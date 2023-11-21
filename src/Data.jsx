@@ -18,32 +18,16 @@ export const links = [
     path: 'home',
   },
   {
-    name: 'Services',
-    path: 'services',
+    name: 'Projects',
+    path: 'projects',
   },
   {
     name: 'Skills',
     path: 'skills',
   },
   {
-    name: 'Works',
-    path: 'work',
-  },
-  {
     name: 'Resume',
     path: 'resume',
-  },
-  {
-    name: 'Testimonials',
-    path: 'testimonial',
-  },
-  {
-    name: 'Pricing',
-    path: 'pricing',
-  },
-  {
-    name: 'Blog',
-    path: 'blog',
   },
   {
     name: 'Contact',
