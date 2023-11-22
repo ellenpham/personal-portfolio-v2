@@ -14,7 +14,7 @@
    * colors
    */
 
-   --primary-color: hsl(165, 60%, 40%);
+   --primary-color: rgb(181,114,129);
    --title-color: hsl(0, 0%, 100%);
    --text-color: hsl(0, 0%, 92%);
    --bg-color: hsl(216, 18%, 16%);
@@ -97,6 +97,10 @@
 /*----------------------------------------------*\
 # RESET
 \*----------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0;
@@ -217,12 +221,18 @@ img {
 }
 
 .dark-theme .shape {
+  position: absolute;
   filter: invert(1);
   opacity: 0.6;
 }
 
+.light-theme .shape {
+  filter: invert(0);
+}
+
 .shape {
   position: absolute;
+  filter: invert(0.5);
 }
 
 .section {
