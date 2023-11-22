@@ -9,7 +9,7 @@
     }
 
     .home__profile {
-        height: auto;
+        height: 560px;
     }
 
     .home__data {
@@ -60,6 +60,10 @@
     .home__socials,
     .home__btns {
         justify-content: center;
+    }
+
+    .home__profile {
+        height: 555px;
     }
 
     .footer__copyright:nth-child(2){
@@ -169,6 +173,10 @@
         max-width: 400px;
     }
 
+    .home__profile {
+        height: 370px;
+    }
+
     .home__data {
         transform: scale(0.6);
     }
@@ -207,4 +215,106 @@
         grid-template-columns: 1fr;
     }
     
+}
+
+
+@media screen and (max-width: 576px) {
+    .show-menu {
+        width: 100%;
+    }
+
+    .nav__btns {
+        column-gap: 24px;
+    }
+
+    .container {
+        max-width: 480px;
+    }
+
+    .home__img-wrapper {
+        margin-top: 100px;
+    }
+
+    .home__profile {
+        height: 368px;
+    }
+
+    .resume__header {
+        padding: 28px 24px;
+    }
+
+    .resume__content {
+        padding-inline: 24px 30px;
+    }
+
+    .resume__date-title {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 4px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home__profile {
+        height: 325px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .nav__data {
+        padding: 80px 0 0 90px;
+    }
+
+    .container {
+        max-width: 400px;
+    }
+
+    .home__img-wrapper {
+        margin-top: 80px;
+    }
+    
+    .home__profile {
+        height: 310px;
+    }
+
+    .home__data {
+        transform: scale(0.5);
+    }
+
+    .home__data-one{
+        bottom: 18%;
+        left: -18%;
+    }
+
+    .home__data-two {
+        bottom: 0;
+        right: -12%;
+    }
+
+    .card-one {
+        padding: 24px;
+    }
+
+    .skills__container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills__titles {
+        padding-inline: 16px;
+    }
+
+    .resume__header {
+        padding: 24px 18px;
+    }
+
+    .resume__content {
+        padding-inline: 18px 20px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .home__profile {
+        height: 270px;
+    }
 }
