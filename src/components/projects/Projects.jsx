@@ -26,7 +26,8 @@ const Projects = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         </p>
 
-        <Swiper 
+        <Swiper
+            spaceBetween={30} 
             pagination={{
                 clickable: true,
             }}

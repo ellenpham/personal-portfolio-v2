@@ -5,7 +5,6 @@ import './header.css';
 import { Link } from 'react-scroll';
 import {BsSun, BsMoon} from 'react-icons/bs';
 import { animateScroll } from 'react-scroll';
-import shapeOne from "../../assets/shape-1.png";
 
 const getStorageTheme = () => {
     let theme = 'light-theme';
@@ -92,10 +91,6 @@ const Header = () => {
                                 <FaGithub />
                             </a>
                         </div>
-                    </div>
-
-                    <div className='section__deco deco__left heade__deco'>
-                        <img src={shapeOne} alt='' className='shape'/>
                     </div>
                 </div>
 
