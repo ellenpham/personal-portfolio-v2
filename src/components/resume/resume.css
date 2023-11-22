@@ -1,9 +1,11 @@
 .resume {
     background-image: var(--first-gradient);
+    position: relative;
 }
 
 .resume__container {
     grid-template-columns: repeat(2,1fr);
+    position: relative;
 }
 
 .resume__heading {

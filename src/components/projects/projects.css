@@ -1,5 +1,6 @@
 .projects {
     background-image: var(--second-gradient);
+    position: relative;
 }
 
 .swiper-wrapper {
@@ -8,6 +9,7 @@
 
 .projects__container {
     text-align: center;
+    position: relative;
 }
 
 .projects__subtitle {
