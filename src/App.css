@@ -271,10 +271,10 @@ img {
   margin-left: 10px;
 }
 
-.section_description {
-  font-size: var(--largest-font-size);
+.section__description {
+  font-size: var(--large-font-size);
   margin-block: 20px 60px;
-  padding-inline: 26%;
+  padding-inline: 28%;
   text-align: center;
   text-wrap: wrap;
 }

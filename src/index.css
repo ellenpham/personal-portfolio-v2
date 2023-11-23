@@ -104,6 +104,10 @@
         height: 40px;
     }
 
+    .section__description {
+        padding-inline: 16%;
+    }
+
     .skills__container {
         grid-template-columns: repeat(2, 1fr);
         gap:30px;
@@ -211,6 +215,10 @@
         right: -1%;
     }
 
+    .section__description {
+        padding-inline: 12%;
+    }
+
     .contact__container {
         grid-template-columns: 1fr;
     }
@@ -237,6 +245,10 @@
 
     .home__profile {
         height: 368px;
+    }
+
+    .section__description {
+        padding-inline: 10%;
     }
 
     .resume__header {
@@ -289,6 +301,10 @@
     .home__data-two {
         bottom: 0;
         right: -12%;
+    }
+
+    .section__description {
+        padding-inline: 8%;
     }
 
     .card-one {

@@ -22,7 +22,7 @@ const Projects = () => {
         <p className="section__subtitle">
             My <span>Work</span>
         </p>
-        <p className="section_description">
+        <p className="section__description">
             Some of my projects while pursing my education at Coder Academy since Feb 2023. This list will get longer as I go further in this amazing journey.
         </p>
 

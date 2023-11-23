@@ -10,7 +10,7 @@ const Skills = () => {
         <p className="section__subtitle">
             My <span>Skills</span>
         </p>
-        <p className="section_description">
+        <p className="section__description">
             The technologies, skills and tools I am using for my projects with a guarantee of extensions in the near future.
         </p>
 

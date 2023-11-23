@@ -14,7 +14,7 @@ const About = () => {
             <p className="section__subtitle">
                 My <span>Story</span>
             </p>
-            <p className="section_description">
+            <p className="section__description">
             Get to know more about me and the journey to where I am today. 
             </p>
 
