@@ -23,7 +23,7 @@ const Projects = () => {
             My <span>Work</span>
         </p>
         <p className="section_description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Some of my projects while pursing my education at Coder Academy since Feb 2023. This list will get longer as I go further in this amazing journey.
         </p>
 
         <Swiper
@@ -48,15 +48,16 @@ const Projects = () => {
             modules={[Pagination]}
             className="projects__container container mySwiper"
         >
-            {projects.map(({ name, title, description }, index) => {
+            {projects.map(({ name, title, link, tech_stack, description }, index) => {
                 return (
                     <SwiperSlide className="projects__item card card-one">
                         <span className="projects__subtitle text-cs">{name}</span>
+                        <span className='projects__techstack'>{tech_stack}</span>
                         <h3 className="projects__title">{title}</h3>
                         <p className="projects__description">{description}</p>
 
-                        <a href="" className="link">
-                            See More
+                        <a href={link} className="link">
+                            Source Code
                             <FaArrowRight className='link__icon'></FaArrowRight>
                         </a>
 

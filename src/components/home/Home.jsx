@@ -29,22 +29,22 @@ const Home = () => {
                     </div>
                     
                     <p className="home__data home__data-one">
-                        <span className="text-lg">
-                            12 <b>+</b>
+                        <span className="text-left text-cs">
+                            Passionate
                         </span>
 
-                        <span className="text-sm text-cs">
-                            Years of <span>Experience</span>
+                        <span className="text-right text-cs">
+                            Learner
                         </span>
                     </p>
 
                     <p className="home__data home__data-two">
-                        <span className="text-lg">
-                            330
+                        <span className="text-left text-cs">
+                            Resilient
                         </span>
                         
-                        <span className="text-sm text-cs">
-                            Completed <span>Projects</span>
+                        <span className="text-right text-cs">
+                            Spirit
                         </span>
                     </p>
 
@@ -54,7 +54,7 @@ const Home = () => {
                 </div>
 
                 <p className='home__text'>
-                    An aspiring coder with a pure passion for web design and development and a genuine motivation for contributing to the society. 
+                    An aspiring coder and a natural observant with pure passion for web development and genuine motivation for professional self-development in tech. 
                 </p>
                 
                 <div className="home__socials">
@@ -71,8 +71,8 @@ const Home = () => {
                     <a download='' href={CV} className="btn text-cs">
                         Download My CV
                     </a>
-                    <a href='#skills' className="hero__link text-cs">
-                        My Skills
+                    <a href='#projects' className="hero__link text-cs">
+                        My Work
                     </a>
                 </div>
             </div>

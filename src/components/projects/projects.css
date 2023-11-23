@@ -12,12 +12,21 @@
     position: relative;
 }
 
+
+.projects__techstack {
+    font-size: var(--normal-font-size);
+    color: var(--primary-color);
+    display: block;
+    margin-bottom: 65px;
+    font-weight: 500;
+}
+
 .projects__subtitle {
     color: var(--title-color);
     font-size: var(--tiny-font-size);
     font-weight: 700;
-    margin-bottom: 65px;
     display: block;
+    margin-bottom: 8px;
 }
 
 .projects__title {

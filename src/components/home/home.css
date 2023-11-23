@@ -55,7 +55,7 @@
 .home__text {
     font-size: var(--large-font-size);
     margin-block: 40px 28px;
-    max-width: 520px;
+    max-width: 480px;
 }
 
 .home__socials {
@@ -137,7 +137,6 @@
     background-color: var(--container-color);
     box-shadow: var(--shadow);
     padding-inline: 20px;
-    width: 250px;
     height: 82px;
     border-radius: 82px;
     display: flex;
@@ -149,28 +148,32 @@
 .home__data-one {
     bottom: 20%;
     left: -4%;
+    width: 270px;
 }
 
 .home__data-two {
     bottom: 12%;
     right: 6%;
+    width: 240px;
 }
 
-.home__data .text-lg,
-.home__data .text-sm {
-    width: 50%;
-    color: var(--title-color);
+.home__data {
+    display: flex;
+    justify-content: center;
     font-weight: 700;
+    font-size: var(--normal-font-size)
 }
 
-.home__data .text-lg {
+.home__data .text-left {
+    color: var(--title-color);
     text-align: center;
-    font-size: 37px;
+    margin-right: 5px;
 }
 
-.home__data .text-sm {
-    font-size: 13px;
-    line-height: 1.5em;
+.home__data .text-right {
+    color: var(--primary-color);
+    text-align: center;
+    margin-left: 5px;
 }
 
 .home__data .text-lg b,

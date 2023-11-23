@@ -11,7 +11,7 @@ const Resume = () => {
             My <span>History</span>
         </p>
         <p className="section_description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            "There is no magic to the achievement. It's really about hard work, choices and persistence". Came from a business background, but I chose to build my career in tech and will persist to achievement.
         </p>
 
         <div className="resume__container container grid">

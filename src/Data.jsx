@@ -55,6 +55,8 @@ export const projects = [
     id: 1,
     name: 'API Webserver',
     title: 'Local Tours Booking API',
+    link : 'https://github.com/ellenpham/API-Webserver-LocalTourBooking',
+    tech_stack: "Python | Flask | PostgresSQL",
     description:
       'A RESTful API for a self-operated tours booking platform that connects tourists and self-employed tour guides all over the world.',
   },
@@ -62,36 +64,46 @@ export const projects = [
     id: 2,
     name: 'Terminal Application',
     title: 'RosterBoard',
+    link: 'https://github.com/ellenpham/RosterBoard-TerminalApp',
+    tech_stack: "Python",
     description:
       'A project inspired by my previous role as rosterer. RosterBoard was designed to aid roster schedule in a warehousing company.',
   },
   {
     id: 3,
     name: 'Hackathon Project',
-    title: 'Job Board',
+    title: 'MX51 Job Board',
+    link: 'https://github.com/katielock92/gh-job-board',
+    tech_stack: "JavaScript | React",
     description:
-      "A custom API-driven Job Board using for MX51, using Greenhouse's open APIs. A one-week group project for practicing team collaboration.",
+      "An API-driven job board developed for MX51, using Greenhouse's open APIs. An one-week group project to practice GitHub collaboration.",
   },
   {
     id: 4,
     name: 'Static Website',
     title: 'Portfolio Website',
+    link: 'https://github.com/ellenpham/CAT1A1-personal-portfolio-v1',
+    tech_stack: "HTML | CSS | SCSS",
     description:
-      ' Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program. ',
+      'My very first project, created from scratch from design, development to documentation. Built entirely on HTML5, CSS3, SCSS.',
   },
   {
     id: 5,
     name: 'Full-Stack Application',
     title: 'Sakura Pantry',
+    link: 'https://github.com/irene2mana-T3A2-2023',
+    tech_stack: "React | Node | Express | MongoDB",
     description:
-      'Music copying, writing, creating, transcription and composition services.',
+      'A work-in-progress project with an expected completion in December. This is a MERN stack web application for online grocery shopping.',
   },
   {
     id: 6,
-    name: 'JavaScript Basic',
+    name: 'Basic challenge',
     title: 'Random Jokes Generator',
+    link: 'https://github.com/ellenpham/random-jokes-generator',
+    tech_stack: "JavaScript",
     description:
-      'Music copying, writing, creating, transcription and composition services.',
+      'A simple jokes generator using Jokes API. A practice in basic API fetch, JS DOM and asynchronous functions.',
   }
 ];
 
@@ -188,7 +200,7 @@ export const cv = [
     subtitle: 'Web Developement',
     date: 'Feb-Dec 2023',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'As I am expecting to graduate in December 2023, I eagerly anticipate stepping into the professional realm of IT with a solid foundation in the latest technologies and programming languages that Coder Academy has equipped me. This academic journey has been a challenging yet rewarding adventure, filled with opportunities for learning and growth.',
     category: 'education',
   },
 
@@ -198,7 +210,7 @@ export const cv = [
     subtitle: 'Master of International Business',
     date: '2015 - 2016',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'My destiny with Australia started from when I pursued this course. I have gained so much within just a year, not only in academic achievement, but also in self-improvement. Within this time, I have built myself towards independence, discipline, diligence and versatility. While studying, I have also done a few casual jobs, including cashier, baker and cafe all-rounder.',
     category: 'education',
   },
 
@@ -208,7 +220,7 @@ export const cv = [
     subtitle: 'Economics & International Business',
     date: '2011 - 2015',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'During my university years, I attended several extracurricular activities and participated in organizing start-up events for students nationwide. An interesting fact is I have studied economics in Chinese language. I was granted with the 2nd prize in a national competition for Chinese language proficiency back in 2010. So yes, I am a trilingual, speaking English, Vietnamese and Mandarin (and a tiny bit of Japanese from self-studying). It is true to say I am a linguaphile, even now as I am shifting my love to programming languages.',
     category: 'education',
   },
 
@@ -216,19 +228,19 @@ export const cv = [
     id: 4,
     title: 'Resourcing Specialist',
     subtitle: 'Programmed Skilled Workforce',
-    date: '2020 - PRESENT',
+    date: '2019-2022',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'My main role in Programmed was to maintain staff database and arrange work schedule for hundreds of casual workers in a daily basis. This job required high level of accuracy and timely delivery, and I have proudly fulfilled both aspects. Throughout my time working here, I have honed my skills in customer service, time management, observation, problem-solving, and multitasking.',
     category: 'experience',
   },
 
   {
     id: 5,
-    title: 'Administrative Assistant',
+    title: 'Freelancer',
     subtitle: 'Fuson Auto Bosch',
-    date: 'Sep 2017-',
+    date: '2017-2019',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Fuson Auto Bosch is my family business. It is a distributor of Bosch Automotive Aftermarket in Vietnam. I have assisted in drafting business contracts and emails, materials translation and organized meetings. This is also considered as my gap year, as I was relocating to Australia. During this time, I focused more on enriching my personal experience through travelling, reading, self-cultivating and connecting with people around me.',
     category: 'experience',
   },
 
@@ -238,7 +250,7 @@ export const cv = [
     subtitle: 'Robert Bosch in Singapore',
     date: 'Feb-Aug 2017',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'This internship not only sharpened my technical skills but also honed my ability to collaborate within a professional setting and in a culturally diversed work environment. Over the course of 6 months, I actively contributed to various tasks across different departments, gaining hands-on experience in data management and documents handling. The supportive environment and mentorship provided by the team fostered my professional growth, allowing me to apply classroom knowledge to real-world scenarios.',
     category: 'experience',
   },
 ];
