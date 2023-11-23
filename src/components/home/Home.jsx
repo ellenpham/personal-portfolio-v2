@@ -54,9 +54,7 @@ const Home = () => {
                 </div>
 
                 <p className='home__text'>
-                    Enthusiastic and detail-oriented professional seeking a career transition to junior web development. 
-                    Adept at problem-solving and quick learning, with a solid foundation in HTML, CSS, JavaScript. 
-                    Eager to leverage my skills to contribute to dynamic web development projects.
+                    An aspiring coder with a pure passion for web design and development and a genuine motivation for contributing to the society. 
                 </p>
                 
                 <div className="home__socials">
@@ -71,7 +69,7 @@ const Home = () => {
 
                 <div className="home__btns">
                     <a download='' href={CV} className="btn text-cs">
-                        View My Resume
+                        Download My CV
                     </a>
                     <a href='#skills' className="hero__link text-cs">
                         My Skills
