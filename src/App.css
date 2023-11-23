@@ -272,7 +272,7 @@ img {
 }
 
 .section_description {
-  font-size: var(--large-font-size);
+  font-size: var(--largest-font-size);
   margin-block: 20px 60px;
   text-align: center;
 }

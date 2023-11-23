@@ -1,17 +1,4 @@
-import Project1 from './assets/project1.jpeg';
-import Project2 from './assets/project2.jpg';
-import Project3 from './assets/project3.jpeg';
-import Project4 from './assets/project4.jpeg';
-import Project5 from './assets/project5.jpg';
-import Project6 from './assets/project6.jpg';
-
-import Testimonial1 from './assets/testimonial1.jpg';
-import Testimonial2 from './assets/testimonial2.jpg';
-import Testimonial3 from './assets/testimonial3.jpg';
-import Testimonial4 from './assets/testimonial4.jpg';
-import Testimonial5 from './assets/testimonial5.jpg';
-
-
+// Navbar data
 export const links = [
   {
     name: 'Home',
@@ -35,6 +22,34 @@ export const links = [
   },
 ];
 
+// About data
+const stories = [
+  {
+    id: 1,
+    title: 'Who am I?',
+    description: 
+      "I am Ellen Pham - a junior full-stack developer, based in Melbourne, Australia. I am a coder by heart, and my experiences in business setting have equipped me with valuable skills in order to be adaptable to any work environment. Since I was young, I has always been fascinated about how technology has evolved and how amazing web applications are created to serve us in daily life. I want to be a part of the tech industry, contribute to create real programs that solve real-world problems. Soon to be a graduate from Coder Academy, I strive to expand my tech knowledge and sharpen my coding skills. I always put in 100% effort in my study and work. To me, no practical experience is less significant, I can always learn something from them when giving out my best.",
+  },
+  {
+    id: 2,
+    title: 'What brought me here?',
+    description: 'Back in 2017, I worked in marketing data management team at Bosch, Singapore. In 2019, I moved back to Australia and worked as a resourcing specialist at Programmed Skilled Workforce. Throughout my career, I have worked with various company internal systems, and have always been the go-to person when it comes to system operation. My passion for technology and the confidence working with systems gradually grew throughout years of performing database management. Yet, I still found the job was not challenging enough. I then took my courage and leapt into the new found passion - coding. I love combining the worlds of logic and creative design to make engaging, functional and accessible websites and applications. My aim is to deliver meaningful storytelling through exceptional digital experience.',
+  },
+  {
+    id: 3,
+    title: 'What am I standing for?',
+    description: "The four values that I am always upholding: Integrity - Trust - Dedication - Humbleness. And my favorite quote from Maya Angelou 'Do the best you can until you know better. Then when you know better, do better'. Switching to tech career is not easy but I believe that as long as you put your heart in whatever you do, work hard and never give up, you will get rewarded with fruitful outcome.",
+  },
+  {
+    id: 4,
+    title: 'Who am I outside of work?',
+    description: "Me, when I am not coding, I am a dedicated mum of an active 3-year old girl, who has taught me a lot about empathy, positivity, resilience, time management and creative thinking. I am also a yoga lover, a plants addict, an aspiring chef and a spiritual enthusiast. I am mindful in everything I do and find my happiness in the givings. That also makes me a team-oriented person, in both personal life and work environment, I communicate and collaborate with others with dedication and respect. I keep a beginner's mindset when it comes to reaching out for assistance and clarifying my questions. By myself, I learn and work diligently to support everyone around me in achieving common goals.",
+  }
+]
+
+export default stories;
+
+// Projects data
 export const projects = [
   {
     id: 1,
@@ -73,6 +88,7 @@ export const projects = [
   },
 ];
 
+// Skills data
 export const skills = [
   {
     id: 1,
@@ -157,57 +173,7 @@ export const skills = [
   }
 ];
 
-export const projects_tutorial = [
-  {
-    id: 1,
-    img: Project1,
-    category: 'Branding',
-    title: 'Zorro',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    id: 2,
-    img: Project2,
-    category: 'UI UX Design',
-    title: 'Gooir',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    id: 3,
-    img: Project3,
-    category: 'Development',
-    title: 'Explore',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    id: 4,
-    img: Project4,
-    category: 'Photography',
-    title: 'Mozar',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    id: 5,
-    img: Project5,
-    category: 'Development',
-    title: 'Stay Fit',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    id: 6,
-    img: Project6,
-    category: 'Branding',
-    title: 'Kana',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-];
-
+// Resume data
 export const cv = [
   {
     id: 1,
@@ -267,48 +233,5 @@ export const cv = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     category: 'experience',
-  },
-];
-
-export const testimonials = [
-  {
-    id: 1,
-    img: Testimonial1,
-    name: 'Barbara Wilson',
-    author: 'CEO Company',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    id: 2,
-    img: Testimonial2,
-    name: 'Charlie Smith',
-    author: 'Designer',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    id: 3,
-    img: Testimonial3,
-    name: 'Roy Wang',
-    author: 'Manager GYM',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    id: 4,
-    img: Testimonial4,
-    name: 'Jennifer Smith',
-    author: 'CEO & Founder',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    id: 5,
-    img: Testimonial5,
-    name: 'Paul Freeman',
-    author: 'Photographer',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
 ];
