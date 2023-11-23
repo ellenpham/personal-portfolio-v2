@@ -5,6 +5,7 @@ import './header.css';
 import { Link } from 'react-scroll';
 import {BsSun, BsMoon} from 'react-icons/bs';
 import { animateScroll } from 'react-scroll';
+import logo from "../../assets/Ellen_logo_resize.png";
 
 const getStorageTheme = () => {
     let theme = 'light-theme';
@@ -55,8 +56,8 @@ const Header = () => {
     return (
         <header className={`${scrollNav ? 'scroll-header' : ''} header`}>
             <nav className="nav">
-                <Link to='/' onClick={scrollTop} className="nav__logo text-cs">
-                    EP
+                <Link to='/' onClick={scrollTop} className="nav__logo">
+                    <img src={logo} alt='' />
                 </Link>
 
                 <div className={`${showMenu ? 'nav__menu show-menu' : 'nav__menu'}`}>
