@@ -50,6 +50,7 @@
     font-size: var(--h2-font-size);
     font-family: var(--second-font);
     padding-block: 6px;
+    color: var(--primary-color)
 }
 
 .contact__form-group {

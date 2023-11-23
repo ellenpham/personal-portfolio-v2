@@ -29,8 +29,9 @@
 
 .nav__logo {
     cursor: pointer;
-    width: 88px;
-    height: 88px;
+    width: 70px;
+    height: 70px;
+    margin-top: -10px;
 }
 
 
