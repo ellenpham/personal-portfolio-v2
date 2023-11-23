@@ -54,7 +54,7 @@ const Home = () => {
                 </div>
 
                 <p className='home__text'>
-                    An aspiring coder and a natural observant with pure passion for web development and genuine motivation for professional self-development in tech. 
+                    An aspiring coder and an observant in nature with pure passion for web development and genuine motivation for professional self-development in tech. 
                 </p>
                 
                 <div className="home__socials">
