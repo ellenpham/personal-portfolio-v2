@@ -56,7 +56,7 @@
 .home__text {
     font-size: var(--large-font-size);
     margin-block: 40px 28px;
-    max-width: 480px;
+    max-width: 500px;
 }
 
 .home__socials {
