@@ -23,7 +23,7 @@ const Projects = () => {
             My <span>Work</span>
         </p>
         <p className="section__description">
-            Some of my projects while pursing my education at Coder Academy since Feb 2023. This list will get longer as I go further in this amazing journey.
+            Here are some of the projects I've undertaken during my education at Coder Academy since February 2023. This list will continue to grow as I progress further in this incredible journey.
         </p>
 
         <Swiper

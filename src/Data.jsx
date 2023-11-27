@@ -28,22 +28,22 @@ const stories = [
     id: 1,
     title: 'Who am I?',
     description: 
-      "I am Ellen Pham - a junior full-stack developer, based in Melbourne, Australia. I am a coder by heart, and my experience in business setting have equipped me with valuable skills to be adaptable to any work environment. Since I was young, I has always been fascinated about how technology has evolved and how amazing web applications were created to serve us in daily life. I want to be a part of the tech industry, contributing to create real programs that solve real-world problems. Soon to be a graduate from Coder Academy, I strive to expand my tech knowledge and sharpen my coding skills. I always put in 100% effort in my study and work. To me, no practical experience is less significant, I can always learn something from them when giving out my best.",
+      "I am Ellen Pham - a junior full-stack developer, based in Melbourne, Australia. I am a coder by heart, and my experience in business setting have equipped me with valuable skills to be adaptable to any work environment. Since I was young, I have always been fascinated about how technology has evolved and how amazing web applications are created to serve us in daily life. I want to be a part of the tech industry, contributing to creating real programs that solve real-world problems. Soon to be a graduate from Coder Academy, I strive to expand my tech knowledge and sharpen my coding skills. I always put in 100% effort in my study and work. To me, no practical experience is less significant; I can always learn something from them when giving out my best.",
   },
   {
     id: 2,
     title: 'What brought me here?',
-    description: 'Back in 2017, I worked in marketing data management team at Bosch, Singapore. In 2019, I moved back to Australia and worked as a resourcing specialist at Programmed Skilled Workforce. Throughout my career, I have operated on various company internal systems, and have always been the go-to person when it comes to system operation. My passion for technology and the confidence working with systems gradually grew throughout years of performing database management. Yet, I still found the job was not challenging enough. I then took my courage and leapt into the newfound passion - coding. I love combining the worlds of logic and creative design to make engaging, functional, and accessible websites and applications. My aim is to deliver meaningful storytelling through exceptional digital experience.',
+    description: 'In 2017, I contributed to the marketing data management team at Bosch, Singapore. Upon returning to Australia in 2019, I took on the role of a resourcing specialist at Programmed Skilled Workforce. Throughout my career, I have navigated various company internal systems, establishing myself as the go-to person for operational expertise. My passion for technology and confidence in system operation developed over years of hands-on experience in data management. However, I sought a more challenging path. Taking a leap of courage, I delved into my newfound passion—coding. I thrive on merging the realms of logic and creative design to craft engaging, functional, and accessible websites and applications. My goal is to convey meaningful storytelling through exceptional digital experiences.',
   },
   {
     id: 3,
     title: 'What am I standing for?',
-    description: "The four values that I am always upholding: Integrity - Trust - Dedication - Humbleness. And my favourite quote from Maya Angelou 'Do the best you can until you know better. Then when you know better, do better'. Switching to tech career is not easy but I believe that if you put your heart in whatever you do, work hard and never give up, you will get rewarded with fruitful outcome.",
+    description: "I consistently uphold four core values: Integrity, Trust, Dedication, and Humbleness. A quote by Maya Angelou that resonates with me is, 'Do the best you can until you know better. Then when you know better, do better.' Transitioning to a tech career is challenging, but I firmly believe that with dedication, hard work, and perseverance, one can achieve rewarding outcomes.",
   },
   {
     id: 4,
     title: 'Who am I outside of work?',
-    description: "Me, when I am not coding, I am a dedicated mum of an active 3-year-old girl, who has taught me a lot about empathy, positivity, resilience, time management and creative thinking. I am also a yoga lover, a plants addict, an aspiring chef, and a spiritual enthusiast. I am mindful in everything I do and find my happiness in the giving's. That also makes me a team-oriented person, in both personal life and work environment, I communicate and collaborate with others with dedication and respect. I keep a beginner's mindset when it comes to reaching out for assistance and clarifying my questions. By myself, I learn and work diligently to support everyone around me in achieving common goals.",
+    description: "Outside of coding, I embrace the role of a dedicated mother to an energetic 3-year-old girl. Motherhood has imparted valuable lessons in empathy, positivity, resilience, time management, and creative thinking. Beyond parenting, I am a yoga enthusiast, a plant lover, an aspiring chef, and a spiritual enthusiast. Mindfulness is integral to everything I do, and I find joy in giving back. This quality extends to my approach in personal life and work environments—I thrive as a team-oriented individual, emphasizing communication and collaboration with dedication and respect. Maintaining a beginner's mindset, I openly seek assistance and clarification, and always committed to learning and working diligently to support everyone around me in achieving common goals.",
   }
 ]
 
@@ -58,7 +58,7 @@ export const projects = [
     link : 'https://github.com/ellenpham/API-Webserver-LocalTourBooking',
     tech_stack: "Python | Flask | PostgresSQL",
     description:
-      'A RESTful API for a self-operated tours booking platform that connects tourists and self-employed tour guides all over the world.',
+      'A RESTful API for a self-operated tours booking platform, facilitating global connections between tourists and self-employed tour guides.',
   },
   {
     id: 2,
@@ -67,7 +67,7 @@ export const projects = [
     link: 'https://github.com/ellenpham/RosterBoard-TerminalApp',
     tech_stack: "Python",
     description:
-      'A project inspired by my previous role as rosterer. RosterBoard was designed to aid roster schedule in a warehousing company.',
+      'Inspired by my previous role as a rosterer, RosterBoard was conceived to mimic scheduling processes within a warehousing company.',
   },
   {
     id: 3,
@@ -76,7 +76,7 @@ export const projects = [
     link: 'https://github.com/katielock92/gh-job-board',
     tech_stack: "JavaScript | React",
     description:
-      "An API-driven job board developed for MX51, using Greenhouse's open APIs. An one-week group project to practice GitHub collaboration.",
+      "An API-driven job board for MX51, utilizing Greenhouse's open APIs. An one-week group project for practicing GitHub collaboration.",
   },
   {
     id: 4,
@@ -94,7 +94,7 @@ export const projects = [
     link: 'https://github.com/irene2mana-T3A2-2023',
     tech_stack: "React | Node | Express | MongoDB",
     description:
-      'A work-in-progress project with an expected completion in December. This is a MERN stack web application for online grocery shopping.',
+      'Currently a work-in-progress, this MERN stack web application for online grocery shopping is anticipated to be completed by Dec 2023.',
   },
   {
     id: 6,
@@ -103,7 +103,7 @@ export const projects = [
     link: 'https://github.com/ellenpham/random-jokes-generator',
     tech_stack: "JavaScript",
     description:
-      'A simple jokes generator using Jokes API. A practice in basic API fetch, JS DOM and asynchronous functions.',
+      'Simple jokes generator utilizing the Jokes API, a practice in fundamental API fetch, JS DOM manipulation, and asynchronous functions.',
   }
 ];
 
@@ -200,7 +200,7 @@ export const cv = [
     subtitle: 'Web Developement',
     date: 'Feb-Dec 2023',
     description:
-      'As I am expecting to graduate in December 2023, I eagerly anticipate stepping into the professional realm of IT with a solid foundation in the latest technologies and programming languages that Coder Academy has equipped me. This academic journey has been a challenging yet rewarding adventure, filled with opportunities for learning and growth.',
+      'With an expected graduation date in December 2023, I am eagerly anticipating the transition into the professional realm of IT. Coder Academy has equipped me with a solid foundation in the latest technologies and programming languages. This academic journey has been a challenging yet rewarding adventure, providing ample opportunities for learning and growth.',
     category: 'education',
   },
 
@@ -210,7 +210,7 @@ export const cv = [
     subtitle: 'Master of International Business',
     date: '2015 - 2016',
     description:
-      'My destiny with Australia started from when I pursued this course. I have gained so much within just a year, not only in academic achievement, but also in self-improvement. Within this time, I have built myself towards independence, discipline, diligence and versatility. While studying, I have also done a few casual jobs, including cashier, baker and cafe all-rounder.',
+      'My journey in Australia began with my pursuit of this course. In just a year, I have achieved significant academic milestones and witnessed remarkable self-improvement. During this period, I have cultivated qualities of independence, discipline, diligence, and versatility. Concurrently, I have undertaken various casual roles, such as a cashier, baker, and cafe all-rounder, while pursuing my studies.',
     category: 'education',
   },
 
@@ -220,7 +220,7 @@ export const cv = [
     subtitle: 'Economics & International Business',
     date: '2011 - 2015',
     description:
-      'During my university years, I attended several extracurricular activities and participated in organizing start-up events for students nationwide. An interesting fact is I have studied economics in Chinese language. I was granted with the 2nd prize in a national competition for Chinese language proficiency back in 2010. So yes, I am a trilingual, speaking English, Vietnamese and Mandarin (and a tiny bit of Japanese from self-studying). It is true to say I am a linguaphile, even now as I am shifting my love to programming languages.',
+      'Throughout my university years, I actively engaged in numerous extracurricular activities and played a key role in organizing start-up events catering to students nationwide. An interesting aspect of my academic journey is that I pursued economics in the Chinese language. A noteworthy achievement was securing the 2nd prize in a national competition for Chinese language proficiency in 2010. Hence, I am trilingual, fluent in English, Vietnamese, and Mandarin, with a modest grasp of Japanese from self-study. As a linguaphile, my love for languages persists, now extending into the realm of programming languages.',
     category: 'education',
   },
 
@@ -230,7 +230,7 @@ export const cv = [
     subtitle: 'Programmed Skilled Workforce',
     date: '2019-2022',
     description:
-      'My main role in Programmed was to maintain staff database and arrange work schedule for hundreds of casual workers in a daily basis. This job required high level of accuracy and timely delivery, and I have proudly fulfilled both aspects. Throughout my time working here, I have honed my skills in customer service, time management, observation, problem-solving, and multitasking.',
+      'In my role at Programmed, I was primarily responsible for maintaining the staff database and organizing work schedules for hundreds of casual workers on a daily basis. This position demanded a high level of accuracy and timely delivery, both of which I proudly fulfilled. Over the course of my tenure, I refined my skills in client relations, customer service, time management, observation, problem-solving, and multitasking.',
     category: 'experience',
   },
 
@@ -240,7 +240,7 @@ export const cv = [
     subtitle: 'Fuson Auto Bosch',
     date: '2017-2019',
     description:
-      'Fuson Auto Bosch is my family business. It is a distributor of Bosch Automotive Aftermarket in Vietnam. I have assisted in drafting business contracts and emails, materials translation and organized meetings. This is also considered as my gap year, as I was relocating to Australia. During this time, I focused more on enriching my personal experience through travelling, reading, self-cultivating and connecting with people around me.',
+      'Fuson Auto Bosch, a distributor of Bosch Automotive Aftermarket in Vietnam, is my family business. In this capacity, I have contributed by drafting business contracts, composing emails, translating materials, and organizing meetings. This period also served as my gap year, coinciding with my relocation to Australia. During this time, my focus shifted towards enriching my personal experiences through travel, reading, self-cultivation, and re-establishing connections with people around me.',
     category: 'experience',
   },
 
@@ -250,7 +250,7 @@ export const cv = [
     subtitle: 'Robert Bosch in Singapore',
     date: 'Feb-Aug 2017',
     description:
-      'This internship not only sharpened my technical skills but also honed my ability to collaborate within a professional setting and in a culturally diversed work environment. Over the course of 6 months, I actively contributed to various tasks across different departments, gaining hands-on experience in data management and documents handling. The supportive environment and mentorship provided by the team fostered my professional growth, allowing me to apply classroom knowledge to real-world scenarios.',
+      'This internship not only enhanced my technical skills but also refined my ability to collaborate within a professional setting, particularly in a culturally diverse work environment. Over the span of six months, I actively contributed to a range of tasks across different departments, gaining hands-on experience in data management and document handling. The supportive environment and mentorship provided by the team significantly fostered my professional growth, enabling me to seamlessly apply classroom knowledge to real-world scenarios.',
     category: 'experience',
   },
 ];
