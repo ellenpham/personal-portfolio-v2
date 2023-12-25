@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FaRegAddressBook, FaRegEnvelope, FaRegUser, FaRegMap } from 'react-icons/fa';
 import './contact.css';
 import axios from 'axios';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
+
+    const notify = () => toast("Enquiry sent successfully!");
 
     const [form, setForm] = useState({
         name: '', 
@@ -18,19 +21,19 @@ const Contact = () => {
         setForm({...form, [name]: value});
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-
-        axios
-        .post(
-            'https://sheet.best/api/sheets/943d68e2-1fbb-4d77-be59-8ef0b16c8b38', 
-            form
-        )
-        .then( (response) => {
+        try {
+            const response = await axios.post(
+            'https://sheet.best/api/sheets/d00da353-89db-4cd2-bed3-b49e6200c7bf', form)
             console.log(response);
             // clearing form fields
-            setForm({name:'', email: '', subject: '', message: ''})
-        });
+            setForm({name:'', email: '', subject: '', message: ''});
+            notify()
+        } catch (error) {
+            console.error(error);
+            toast.error("Error submittin form. Please try again.")
+        }
     };
 
     return (
@@ -147,4 +150,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Contact;
