@@ -53,6 +53,15 @@ export default stories;
 export const projects = [
   {
     id: 1,
+    name: 'Full-Stack Application',
+    title: 'Sakura Pantry',
+    link: 'https://sakurapantry.netlify.app/',
+    tech_stack: "React | Node | Express | MongoDB",
+    description:
+      'An e-commerce website developed with MERN stack, features including products browsing, user authentication, shopping cart, checkout process, and store administration.',
+  },
+  {
+    id: 2,
     name: 'API Webserver',
     title: 'Local Tours Booking API',
     link : 'https://github.com/ellenpham/API-Webserver-LocalTourBooking',
@@ -61,7 +70,7 @@ export const projects = [
       'A RESTful API for a self-operated tours booking platform, facilitating global connections between tourists and self-employed tour guides.',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Terminal Application',
     title: 'RosterBoard',
     link: 'https://github.com/ellenpham/RosterBoard-TerminalApp',
@@ -70,7 +79,7 @@ export const projects = [
       'Inspired by my previous role as a rosterer, RosterBoard was conceived to mimic scheduling processes within a warehousing company.',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Hackathon Project',
     title: 'MX51 Job Board',
     link: 'https://github.com/katielock92/gh-job-board',
@@ -79,22 +88,13 @@ export const projects = [
       "An API-driven job board for MX51, utilizing Greenhouse's open APIs. An one-week group project for practicing GitHub collaboration.",
   },
   {
-    id: 4,
+    id: 5,
     name: 'Static Website',
     title: 'Portfolio Website',
     link: 'https://github.com/ellenpham/CAT1A1-personal-portfolio-v1',
     tech_stack: "HTML | CSS | SCSS",
     description:
       'My very first project, created from scratch from design, development to documentation. Built entirely on HTML5, CSS3, SCSS.',
-  },
-  {
-    id: 5,
-    name: 'Full-Stack Application',
-    title: 'Sakura Pantry',
-    link: 'https://github.com/irene2mana-T3A2-2023',
-    tech_stack: "React | Node | Express | MongoDB",
-    description:
-      'Currently a work-in-progress, this MERN stack web application for online grocery shopping is anticipated to be completed by Dec 2023.',
   },
   {
     id: 6,

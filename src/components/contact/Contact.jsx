@@ -40,6 +40,7 @@ const Contact = () => {
         <section className="contact section" id="contact">
             <h2 className="section__title text-cs">Contact me</h2>
             <p className="section__subtitle">
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 Let's <span>Connect</span>
             </p>
 
@@ -69,7 +70,7 @@ const Contact = () => {
                         </span>
 
                         <h3 className="contact__card-title">Email</h3>
-                        <p className="contact__card-data">ellenpham15101@gmail.com</p>
+                        <p className="contact__card-data">ellenpham1510@gmail.com</p>
                     </div>
 
                     <div className="contact__card">
