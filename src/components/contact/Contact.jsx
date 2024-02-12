@@ -2,11 +2,9 @@ import { useState } from 'react';
 import { FaRegAddressBook, FaRegEnvelope, FaRegUser, FaRegMap } from 'react-icons/fa';
 import './contact.css';
 import axios from 'axios';
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Contact = () => {
-
-    const notify = () => toast("Enquiry sent successfully!");
 
     const [form, setForm] = useState({
         name: '', 
@@ -29,10 +27,10 @@ const Contact = () => {
             console.log(response);
             // clearing form fields
             setForm({name:'', email: '', subject: '', message: ''});
-            notify()
+            toast.success("Enquiry sent successfully!");
         } catch (error) {
             console.error(error);
-            toast.error("Error submittin form. Please try again.")
+            toast.error("Error submitting form. Please try again.")
         }
     };
 
@@ -140,6 +138,7 @@ const Contact = () => {
                     <div className="contact__submit">
                         <p>* Accept the terms and conditions.</p>
                         <button type='submit' className='btn text-cs'>Send Message</button>
+                        <div><ToastContainer /></div>
                     </div>
                 </form>
             </div>

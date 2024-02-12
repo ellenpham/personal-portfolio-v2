@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { links } from '../../Data';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import './header.css';
@@ -12,6 +12,7 @@ const getStorageTheme = () => {
     if (localStorage.getItem('theme')) {
         theme = localStorage.getItem('theme');
     }
+    return theme;
 }
 
 const Header = () => {

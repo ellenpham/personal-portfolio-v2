@@ -1,9 +1,8 @@
-import React from 'react';
 import profileImg from "../../assets/profile-img.png";
 import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import CV from '../../assets/EllenPham_Resume.pdf';
+import CV from '../../assets/EllenPham_Resume_240212.pdf';
 import './home.css';
 
 const Home = () => {
